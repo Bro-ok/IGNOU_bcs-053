@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>An Online Univesity Feedback Form</title>
+        <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="feedbackform.css">
+    </head>
+    <body>
+        <div class="container">
+<h1>An Online Univesity Feedback Form</h1>
+<form action="">
+    <label for="enroll">ENROLLMENT NUMBER:</label> 
+    <input name="enroll" type="text" id="programme"> <br> <br>
+    <label for="programme">PROGRAMME:</label> 
+    <select name="programme" id="programme">
+        <option value="bca">BCA</option>
+        <option value="bsc">BSc</option>
+        <option value="bcom">BCom</option>
+        <option value="bba">BBA</option>
+        <option value="ba">BA</option>
+    </select><br><br>
+    <label for="name">NAME:</label>
+    <input name="name" type="text" id="programme"><br><br>
+    <label for="year">YEAR OF ADMISSION:</label>
+    <input name="year" type="number" placeholder="yyyy" min="1999" max="2023" id="programme"><br><br>
+    <label for="info">Have you taken admission to another programme?</label>
+    <select name="ifo" id="programme" id="programme">
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+    </select><br><br>
+    <label for="feedback">Please give your feedback</label><br>
+    <textarea name="feedback" id="programme" cols="28"></textarea>
+<br><br>
+<div class="child">
+    <button type="submit" onclick="validation()">Submit</button>
+
+</div>
+  
+</form>
+        </div>
+        <script src="feedback.js"></script>
+        
+    </body>
+</html>
